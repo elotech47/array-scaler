@@ -1,5 +1,4 @@
-import arrayscaler as ars
+from arrayscaler.arrayscaler import ScalingHelper
 
-print(ars.scale(5, 0, 10))
-
+print(ScalingHelper.scale(5, 0, 10))
 #

@@ -1,5 +1,5 @@
 import pytest
-from arrayscaler import ScalingHelper
+from arrayscaler.arrayscaler import ScalingHelper
 
 
 def test_scale():

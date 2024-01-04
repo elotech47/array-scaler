@@ -10,9 +10,6 @@ dependencies = [
     "numpy>=1,<2",
 ]
 
-[tool.hatch.build.targets.wheel]
-      packages = ["src"]
-
 [project.optional-dependencies]
 test = [
     "pytest>=7,<8",

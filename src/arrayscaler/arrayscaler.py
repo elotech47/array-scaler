@@ -28,9 +28,8 @@ class ScalingHelper:
     @staticmethod
     def rescale(d, d_min, d_max):
         """
-        Rescales a value between the given
-        minimum and maximum values
-        to its original range.
+        Rescales a value between the given minimum
+        and maximum values to its original range.
 
         Args:
         ----
