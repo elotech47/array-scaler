@@ -1,3 +1,5 @@
-import rescale
+import arrayscaler as ars
 
-rescale.scale(5, 0, 10)
+print(ars.scale(5, 0, 10))
+
+#

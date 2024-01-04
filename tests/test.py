@@ -1,10 +1,12 @@
 import pytest
-from array_scaler import ScalingHelper
+from arrayscaler import ScalingHelper
+
 
 def test_scale():
     assert ScalingHelper.scale(5, 0, 10) == 0.5
     assert ScalingHelper.scale(0, 0, 10) == 0
     assert ScalingHelper.scale(10, 0, 10) == 1
+
 
 def test_rescale():
     assert ScalingHelper.rescale(0.5, 0, 10) == 5
