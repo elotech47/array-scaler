@@ -1,7 +1,7 @@
 # ARRAY SCALER
 
 ## Introduction
-A simple python tool for scaling and resvaling arrays:
+A simple python tool for scaling and rescaling arrays:
 
 ## Installation
 
