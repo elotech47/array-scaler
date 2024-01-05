@@ -1,4 +1,4 @@
 from arrayscaler.arrayscaler import ScalingHelper
 
-print(ScalingHelper.scale(5, 0, 10))
+print(ScalingHelper.scale([1, 4, 5]))
 #
