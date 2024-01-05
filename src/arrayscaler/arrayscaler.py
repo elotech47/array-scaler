@@ -5,7 +5,7 @@ class ScalingHelper:
     """A class that provides methods for scaling and rescaling values."""
 
     @staticmethod
-    def scale(d, d_min, d_max):
+    def scale(d: np.ndarray | float, d_min: float, d_max: float) -> np.ndarray | float:
         """
         Scales a value between 0 and 1 based on the given minimum and maximum values.
 
@@ -26,7 +26,9 @@ class ScalingHelper:
         return scaled_d
 
     @staticmethod
-    def rescale(d, d_min, d_max):
+    def rescale(
+        d: np.ndarray | float, d_min: float, d_max: float
+    ) -> np.ndarray | float:
         """
         Rescales a value between the given minimum
         and maximum values to its original range.
