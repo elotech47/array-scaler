@@ -4,8 +4,19 @@ build-backend = "hatchling.build"
 
 [project]
 name = "arrayscaler"
+description = "A simple python code for Scale arrays"
 version = "0.1.0"
+keywords = [
+  "numerical operation",
+  "computation",
+  "maths",
+]
+readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "MIT License" }
+authors = [
+  { name = "Eloghosa Ikponmwoba", email = "eloghosaefficiency@gmail.com" },
+]
 dependencies = [
     "numpy>=1,<2",
 ]
