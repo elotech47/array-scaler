@@ -16,16 +16,20 @@ class ScalingHelper:
         If no minimum and maximum values are provided,
         they are calculated from the input data.
 
-        Args:
-        ----
-            d (float | int | list): The value to be scaled.
+        Parameters
+        ----------
+        d : np.ndarray | float | int | list
+            The value to be scaled.
             If int or list, it will be converted to float or np array.
-            d_min (float, optional): The minimum value of the range. Defaults to None.
-            d_max (float, optional): The maximum value of the range. Defaults to None.
+        d_min : float, optional
+            The minimum value of the range. Defaults to None.
+        d_max : float, optional
+            The maximum value of the range. Defaults to None.
 
-        Returns:
+        Returns
         -------
-            float: The scaled value between 0 and 1.
+        np.ndarray | float
+            The scaled value between 0 and 1.
         """
         if isinstance(d, list):
             d = np.array(d, dtype=float)
@@ -53,16 +57,20 @@ class ScalingHelper:
         If no minimum and maximum values are provided,
         they are calculated from the input data.
 
-        Args:
-        ----
-            d (float | int | list): The value to be rescaled.
+        Parameters
+        ----------
+        d : np.ndarray | float | int | list
+            The value to be rescaled.
             If int or list, it will be converted to float or np array.
-            d_min (float, optional): The minimum value of the range. Defaults to None.
-            d_max (float, optional): The maximum value of the range. Defaults to None.
+        d_min : float, optional
+            The minimum value of the range. Defaults to None.
+        d_max : float, optional
+            The maximum value of the range. Defaults to None.
 
-        Returns:
+        Returns
         -------
-            float: The rescaled value between d_min and d_max.
+        np.ndarray | float
+            The rescaled value between d_min and d_max.
         """
         if isinstance(d, list):
             d = np.array(d, dtype=float)

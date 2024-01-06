@@ -1,0 +1,5 @@
+====
+arrayscaler
+===
+
+.. automodule:: arrayscaler.arrayscaler
